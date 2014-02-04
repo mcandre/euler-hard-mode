@@ -30,8 +30,9 @@ If your poor hardware can't handle hundreds of virtual machines, you may delete 
 
 # INDEX
 
-| Problem | Language |
-| ------- | -------- |
-| 1       | [Haskell](http://www.haskell.org/) |
-| 2       | [Ruby](https://www.ruby-lang.org/) |
+| Problem | Language                                        |
+| ------- | ----------------------------------------------- |
+| 1       | [Haskell](http://www.haskell.org/)              |
+| 2       | [Ruby](https://www.ruby-lang.org/)              |
 | 3       | [Java](http://www.oracle.com/technetwork/java/) |
+| 4       | [Node.js](http://nodejs.org/)                   |
