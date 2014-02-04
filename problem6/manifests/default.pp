@@ -13,6 +13,6 @@ exec { "apt-update":
 
 Exec["apt-update"] -> Package <| |>
 
-package { ["clisp"]:
+package { "clisp":
   ensure => latest
 }
