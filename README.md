@@ -38,3 +38,4 @@ If your poor hardware can't handle hundreds of virtual machines, you may delete 
 | 4       | [Node.js](http://nodejs.org/)                   |
 | 5       | [C](http://clang.llvm.org/)                     |
 | 6       | [Common Lisp](http://common-lisp.net/)          |
+| 7       | [Erlang](http://www.erlang.org/)                |
