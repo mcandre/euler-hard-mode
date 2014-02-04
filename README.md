@@ -1,5 +1,7 @@
 # euler-hard-mode - Project Euler problems solved in HARD MODE
 
+Your favorite programming language solving Project Eulers too easily? Try HARD MODE.
+
 # HARD MODE
 
 Solve each [Project Euler](https://projecteuler.net/) problem with a different programming language.
