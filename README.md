@@ -27,3 +27,11 @@ Then follow the directions in that problem's `README.md`.
 If your poor hardware can't handle hundreds of virtual machines, you may delete a problem's virtual machine:
 
     problem1$ vagrant destroy
+
+# INDEX
+
+| Problem | Language |
+| ------- | -------- |
+| 1       | [Haskell](http://www.haskell.org/) |
+| 2       | [Ruby](https://www.ruby-lang.org/) |
+| 3       | [Java](http://www.oracle.com/technetwork/java/) |
