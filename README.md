@@ -1,4 +1,4 @@
-# euler-hard-mode - Project Euler problems done in HARD MODE
+# euler-hard-mode - Project Euler problems solved in HARD MODE
 
 # HARD MODE
 
