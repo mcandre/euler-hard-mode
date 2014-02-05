@@ -41,3 +41,4 @@ If your poor hardware can't handle hundreds of virtual machines, you may delete 
 | 7       | [Erlang](http://www.erlang.org/)                |
 | 8       | [Perl](http://www.perl.org/)                    |
 | 9       | [Python](http://python.org/)                    |
+| 10      | [Go](http://golang.org/)                        |
