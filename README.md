@@ -40,3 +40,4 @@ If your poor hardware can't handle hundreds of virtual machines, you may delete 
 | 6       | [Common Lisp](http://common-lisp.net/)          |
 | 7       | [Erlang](http://www.erlang.org/)                |
 | 8       | [Perl](http://www.perl.org/)                    |
+| 9       | [Python](http://python.org/)                    |
