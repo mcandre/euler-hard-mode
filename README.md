@@ -32,7 +32,7 @@ If your poor hardware can't handle hundreds of virtual machines, you may delete 
 
 | Problem | Language                                        |
 | ------- | ----------------------------------------------- |
-| 1       | [Haskell](http://www.haskell.org/)              |
+| 1       | [R](http://www.r-project.org/)                  |
 | 2       | [Ruby](https://www.ruby-lang.org/)              |
 | 3       | [Java](http://www.oracle.com/technetwork/java/) |
 | 4       | [Node.js](http://nodejs.org/)                   |
@@ -42,3 +42,4 @@ If your poor hardware can't handle hundreds of virtual machines, you may delete 
 | 8       | [Perl](http://www.perl.org/)                    |
 | 9       | [Python](http://python.org/)                    |
 | 10      | [Go](http://golang.org/)                        |
+| 11      | [Haskell](http://www.haskell.org/)              |

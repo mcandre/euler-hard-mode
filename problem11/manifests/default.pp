@@ -6,6 +6,6 @@ exec { "apt-update":
 
 Exec["apt-update"] -> Package <| |>
 
-package { "r-base":
+package { "haskell-platform":
   ensure => latest
 }

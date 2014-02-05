@@ -1,4 +1,4 @@
 # HOWTO
 
     $ cd /vagrant/
-    $ ./problem1.R
+    $ ./problem11.hs
