@@ -11,7 +11,7 @@ Solve each [Project Euler](https://projecteuler.net/) problem with a different p
 * [Vagrant](http://www.vagrantup.com/)
 * [VirtualBox](https://www.virtualbox.org/)
 
-Vagrant abstracts away the many compilers / interpreters / bribes needed to setup each programming language. So you don't need to sully your computer with hundreds of software development tools (unless you want to).
+Vagrant abstracts away the many compilers / interpreters / bribes needed to setup each programming language. So you don't need to sully your computer with hundreds of software development tools (unless you [really](https://github.com/mcandre/mcandre-ubuntu) want to).
 
 # EXAMPLE
 
