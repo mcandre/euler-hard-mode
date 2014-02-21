@@ -6,7 +6,7 @@ exec { "apt-update":
 
 Exec["apt-update"] -> Package <| |>
 
-# factor, sed, sort, tail
+# factor, sed, sort, head
 
 package { "coreutils":
   ensure => latest
