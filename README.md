@@ -33,7 +33,7 @@ If your poor hardware can't handle hundreds of virtual machines, you may delete 
 | Problem | Language                                        |
 | ------- | ----------------------------------------------- |
 | 1       | [R](http://www.r-project.org/)                  |
-| 2       | [Ruby](https://www.ruby-lang.org/)              |
+| 2       | [Awk](http://en.wikipedia.org/wiki/AWK)         |
 | 3       | [Bash](https://www.gnu.org/software/bash/)      |
 | 4       | [Node.js](http://nodejs.org/)                   |
 | 5       | [C](http://clang.llvm.org/)                     |

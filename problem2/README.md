@@ -1,4 +1,4 @@
 # HOWTO
 
     $ cd /vagrant/
-    $ ./problem2.rb
+    $ ./problem2.awk < problem2.awk

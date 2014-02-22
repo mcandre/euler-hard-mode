@@ -6,6 +6,8 @@ exec { "apt-update":
 
 Exec["apt-update"] -> Package <| |>
 
-package { "ruby":
+# awk
+
+package { "coreutils":
   ensure => latest
 }
