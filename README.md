@@ -1,6 +1,6 @@
 # euler-hard-mode - Project Euler problems solved in HARD MODE
 
-Your favorite programming language solving Project Eulers too easily? Try HARD MODE.
+Is your favorite programming language solving Project Eulers too easily? Try HARD MODE.
 
 # HARD MODE
 
