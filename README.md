@@ -20,13 +20,9 @@ Vagrant abstracts away the many compilers / interpreters / bribes needed to setu
     problem1$ vagrant up
     problem1$ vagrant ssh
 
-    vagrant@precise64$
-
-Then follow the directions in that problem's `README.md`.
-
-If your poor hardware can't handle hundreds of virtual machines, you may delete a problem's virtual machine:
-
-    problem1$ vagrant destroy
+    vagrant@precise64:~$ cd /vagrant
+    vagrant@precise64:/vagrant$ cat README.md
+    ...
 
 # INDEX
 
