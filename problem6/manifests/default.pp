@@ -1,18 +1,18 @@
 ## Link lisp profile
 
-file { "/home/vagrant/.clisprc.lisp":
+file { '/home/vagrant/.clisprc.lisp':
   ensure => link,
-  target => "/vagrant/.clisprc.lisp"
+  target => '/vagrant/.clisprc.lisp'
 }
 
 # Update apt before installing any packages
 
-exec { "apt-update":
-  command => "/usr/bin/apt-get update"
+exec { 'apt-update':
+  command => '/usr/bin/apt-get update'
 }
 
-Exec["apt-update"] -> Package <| |>
+Exec['apt-update'] -> Package <| |>
 
-package { "clisp":
+package { 'clisp':
   ensure => latest
 }
