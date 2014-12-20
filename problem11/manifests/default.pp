@@ -8,6 +8,7 @@ Exec['apt-update'] -> Package <| |>
 
 package { [
            'ghc',
+           'haskell-platform'
            'make'
   ]:
   ensure => latest
