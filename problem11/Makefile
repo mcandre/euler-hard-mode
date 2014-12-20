@@ -11,3 +11,5 @@ $(BIN): problem11.hs
 
 clean:
 	-rm -rf bin/
+	-rm *.o
+	-rm *.hi
