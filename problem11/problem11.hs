@@ -1,8 +1,4 @@
-#!/usr/bin/env runhaskell
-
 import Data.List (transpose)
-
-import Control.Parallel.Strategies (parMap, rseq)
 
 grid = [
   [08, 02, 22, 97, 38, 15, 00, 40, 00, 75, 04, 05, 07, 78, 52, 12, 50, 77, 91, 08],
@@ -80,7 +76,7 @@ toDiagonalLeft' m (x, y) = start:more
       | otherwise = []
 
 greatestProductFourAdjacent :: [[Integer]] -> Integer
-greatestProductFourAdjacent m = greatest $ parMap rseq (greatest . parMap rseq product) [hs, vs, ds]
+greatestProductFourAdjacent m = greatest $ map (greatest . map product) [hs, vs, ds]
   where
     hs = horizontal m
     vs = vertical m

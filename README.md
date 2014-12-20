@@ -26,16 +26,16 @@ Vagrant abstracts away the many compilers / interpreters / bribes needed to setu
 
 # INDEX
 
-| Problem | Language                                        |
-| ------- | ----------------------------------------------- |
-| 1       | [R](http://www.r-project.org/)                  |
-| 2       | [Awk](http://en.wikipedia.org/wiki/AWK)         |
-| 3       | [Bash](https://www.gnu.org/software/bash/)      |
-| 4       | [Node.js](http://nodejs.org/)                   |
-| 5       | [C](http://clang.llvm.org/)                     |
-| 6       | [Common Lisp](http://common-lisp.net/)          |
-| 7       | [Erlang](http://www.erlang.org/)                |
-| 8       | [Perl](http://www.perl.org/)                    |
-| 9       | [Python](http://python.org/)                    |
-| 10      | [Go](http://golang.org/)                        |
-| 11      | [Haskell](http://www.haskell.org/)              |
+| Problem                          | Language                                        |
+| -------------------------------- | ----------------------------------------------- |
+| 1                                | [R](http://www.r-project.org/)                  |
+| 2                                | [Awk](http://en.wikipedia.org/wiki/AWK)         |
+| 3                                | [Bash](https://www.gnu.org/software/bash/)      |
+| 4                                | [Node.js](http://nodejs.org/)                   |
+| 5                                | [C](http://clang.llvm.org/)                     |
+| 6                                | [Common Lisp](http://common-lisp.net/)          |
+| 7                                | [Erlang](http://www.erlang.org/)                |
+| 8                                | [Perl](http://www.perl.org/)                    |
+| 9                                | [Python](http://python.org/)                    |
+| 10                               | [Go](http://golang.org/)                        |
+| 11 (now Raspberry Pi compatible) | [Haskell](http://www.haskell.org/)              |

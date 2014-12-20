@@ -6,6 +6,9 @@ exec { 'apt-update':
 
 Exec['apt-update'] -> Package <| |>
 
-package { 'haskell-platform':
+package { [
+           'ghc',
+           'make'
+  ]:
   ensure => latest
 }
