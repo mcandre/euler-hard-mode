@@ -1,9 +1,9 @@
 BIN=bin/problem11
 
-all: test
+all: $(BIN)
 
 test: $(BIN)
-	time $(BIN)
+	$(BIN)
 
 $(BIN): problem11.hs
 	mkdir -p bin/

@@ -7,6 +7,7 @@ https://projecteuler.net/problem=11
 ```
 $ cd /vagrant/
 $ make
+$ make test
 ```
 
 # REQUIREMENTS
