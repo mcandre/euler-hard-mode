@@ -15,14 +15,16 @@ Vagrant abstracts away the many compilers / interpreters / bribes needed to setu
 
 # EXAMPLE
 
-    euler-hard-mode$ cd problem1/
+```
+euler-hard-mode$ cd problem1/
 
-    problem1$ vagrant up
-    problem1$ vagrant ssh
+problem1$ vagrant up
+problem1$ vagrant ssh
 
-    vagrant@precise64:~$ cd /vagrant
-    vagrant@precise64:/vagrant$ cat README.md
-    ...
+vagrant@precise64:~$ cd /vagrant
+vagrant@precise64:/vagrant$ cat README.md
+...
+```
 
 # INDEX
 
