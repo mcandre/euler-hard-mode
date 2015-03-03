@@ -4,3 +4,4 @@ bin/
 *.o
 *.hi
 .vagrant/
+node_modules/
