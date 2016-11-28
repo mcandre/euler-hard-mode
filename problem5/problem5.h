@@ -1,5 +1,4 @@
-#ifndef PROBLEM5_H
-#define PROBLEM5_H
+#pragma once
 
 #include <stdbool.h>
 
@@ -9,4 +8,3 @@ long first_divisible_up_to(long y);
 
 int main();
 
-#endif
