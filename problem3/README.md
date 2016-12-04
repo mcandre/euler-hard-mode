@@ -4,5 +4,7 @@ https://projecteuler.net/problem=3
 
 # SOLUTION
 
-    $ cd /vagrant/
-    $ lib/problem3
+```
+$ cd /vagrant/
+$ lib/problem3
+```
