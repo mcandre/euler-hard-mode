@@ -3,27 +3,27 @@
 #include "problem5.h"
 
 bool divisible_up_to(long x, long y) {
-  for (long z = 2; z <= y; z++) {
-    if (x % z != 0) {
-      return false;
+    for (long z = 2; z <= y; z++) {
+        if (x % z != 0) {
+            return false;
+        }
     }
-  }
 
-  return true;
+    return true;
 }
 
 long first_divisible_up_to(long y) {
-  long x = 2;
+    long x = 2;
 
-  while (!divisible_up_to(x, y)) {
-    x++;
-  }
+    while (!divisible_up_to(x, y)) {
+        x++;
+    }
 
-  return x;
+    return x;
 }
 
 int main() {
-  printf("%ld\n", first_divisible_up_to(20));
+    printf("%ld\n", first_divisible_up_to(20));
 
-  return 0;
+    return 0;
 }

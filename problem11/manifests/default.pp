@@ -1,14 +1,14 @@
 # Update apt before installing any packages
 
 exec { 'apt-update':
-  command => '/usr/bin/apt-get update'
+    command => '/usr/bin/apt-get update'
 }
 
 Exec['apt-update'] -> Package <| |>
 
 package { [
-           'haskell-platform'
-           'make'
-  ]:
-  ensure => latest
+    'haskell-platform'
+    'make'
+    ]:
+    ensure => latest
 }

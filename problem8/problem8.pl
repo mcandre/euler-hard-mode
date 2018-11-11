@@ -9,16 +9,16 @@ my $s = "73167176531330624919225119674426574742355349194934969835203127745063262
 my @fives = ();
 
 foreach my $i (0 .. ((length $s) - 6)) {
-  my $five = substr $s, $i, 5;
-  push @fives, $five;
+    my $five = substr $s, $i, 5;
+    push @fives, $five;
 }
 
 my @products = ();
 
 foreach my $five (@fives) {
-  my @digits = split "", $five;
-  my $product = reduce { our $a * our $b } @digits;
-  push @products, $product;
+    my @digits = split "", $five;
+    my $product = reduce { our $a * our $b } @digits;
+    push @products, $product;
 }
 
 my $m = max @products;
