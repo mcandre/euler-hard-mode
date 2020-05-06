@@ -1,2 +1,5 @@
 #!/usr/bin/env bash
+set -eEuo pipefail
+IFS=$'\n\t '
+
 factor 600851475143 | sed 's/.*\: //; s/ /\n/g' | sort -nr | head -n 1
